@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @nexzz_op**
+**© @II_YOUR_GOJO_ll**
 """
 
                  
@@ -92,7 +92,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**© @nexz_op**
+**© @II_YOUR_GOJO_ll**
 """
 
 spam_msg = f"""
@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @nexz_op**
+** © @II_YOUR_GOJO_ll**
 """                     
            
            
@@ -142,7 +142,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("WANT SUDO CONTACT OWNER !! @II_YOUR_GOJO_ll", cache_time=0, alert=True)
+        await event.answer("ɢᴏᴊᴏ ᴘᴀᴘᴀ ᴋᴇ ᴘss ᴊᴀᴀ ᴋʀ sᴜᴅᴏ ʟᴇ ᴋʀ ᴀᴀᴏ ʙᴇᴛᴀ", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("WANT SUDO CONTACT OWNER !! @II_YOUR_GOJO_ll", cache_time=0, alert=True)
+        await event.answer("ɢᴏᴊᴏ ᴘᴀᴘᴀ ᴋᴇ ᴘss ᴊᴀᴀ ᴋʀ sᴜᴅᴏ ʟᴇ ᴋʀ ᴀᴀᴏ ʙᴇᴛᴀ", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("WANT SUDO CONTACT OWNER !! @II_YOUR_GOJO_ll", cache_time=0, alert=True)
+        await event.answer("ɢᴏᴊᴏ ᴘᴀᴘᴀ ᴋᴇ ᴘss ᴊᴀᴀ ᴋʀ sᴜᴅᴏ ʟᴇ ᴋʀ ᴀᴀᴏ ʙᴇᴛᴀ", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("WANT SUDO CONTACT OWNER !! @II_YOUR_GOJO_ll", cache_time=0, alert=True)
+        await event.answer("Wɢᴏᴊᴏ ᴘᴀᴘᴀ ᴋᴇ ᴘss ᴊᴀᴀ ᴋʀ sᴜᴅᴏ ʟᴇ ᴋʀ ᴀᴀᴏ ʙᴇᴛᴀ", cache_time=0, alert=True)
