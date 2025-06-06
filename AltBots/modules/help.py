@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"★ 𝗦ᴘᴀᴍxᴅ 𝗛ᴇʟᴘ 𝗠ᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @HEHE_STALKER**"
+HELP_STRING = f"★ 𝗦ᴘᴀᴍxᴅ 𝗛ᴇʟᴘ 𝗠ᴇɴᴜ ★\n\n» **ᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ꜰᴏʀ ʜᴇʟᴘ**\n» **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @II_YOUR_GOJO_ll**"
 
 HELP_BUTTON = [
     [
@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/lll_drx_network_lll"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DRX_SUPPORTCHAT")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/GOJO_SUPPORT_GROUP_II"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/II_CHATS_II")
     ]
   ]
 
@@ -136,13 +136,13 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/lll_drx_network_lll"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DRX_SUPPORTCHAT")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/GOJO_SUPPORT_GROUP_II"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/II_CHATS_II")
               ]
             ]
           )
     else:
-        await event.answer("Make Your Own Spamxd Bots !! @HEHE_STALKER", cache_time=0, alert=True)
+        await event.answer("𝐉𝐀𝐀 𝐊𝐑 𝐆𝐎𝐉𝐎 𝐊𝐎 𝐏𝐀𝐏𝐀 𝐁𝐎𝐋 𝐀𝐔𝐑 𝐒𝐔𝐃𝐎 𝐋𝐄 𝐊𝐑 𝐀𝐀", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -161,7 +161,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Make Your Own Spamxd Bots !! @HEHE_STALKER", cache_time=0, alert=True)
+        await event.answer("𝐉𝐀𝐀 𝐊𝐑 𝐆𝐎𝐉𝐎 𝐊𝐎 𝐏𝐀𝐏𝐀 𝐁𝐎𝐋 𝐀𝐔𝐑 𝐒𝐔𝐃𝐎 𝐋𝐄 𝐊𝐑 𝐀𝐀", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Spamxd Bots !! @HEHE_STALKER", cache_time=0, alert=True)
+        await event.answer("𝐉𝐀𝐀 𝐊𝐑 𝐆𝐎𝐉𝐎 𝐊𝐎 𝐏𝐀𝐏𝐀 𝐁𝐎𝐋 𝐀𝐔𝐑 𝐒𝐔𝐃𝐎 𝐋𝐄 𝐊𝐑 𝐀𝐀", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own Spamxd Bots !! @HEHE_STALKER", cache_time=0, alert=True)
+        await event.answer("𝐉𝐀𝐀 𝐊𝐑 𝐆𝐎𝐉𝐎 𝐊𝐎 𝐏𝐀𝐏𝐀 𝐁𝐎𝐋 𝐀𝐔𝐑 𝐒𝐔𝐃𝐎 𝐋𝐄 𝐊𝐑 𝐀𝐀, cache_time=0, alert=True)
