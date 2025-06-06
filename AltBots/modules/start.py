@@ -38,7 +38,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/719e7092b9a37a100468d.jpg",
+                    "https://files.catbox.moe/wzydml.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
